@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E404126829640AC7009E926A /* EasyDi in Frameworks */ = {isa = PBXBuildFile; productRef = E404126729640AC7009E926A /* EasyDi */; };
+		E4BF7B3B296310C1009A21E3 /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E4BF7B3A296310C1009A21E3 /* RxAlamofire */; };
+		E4BF7B43296314A8009A21E3 /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = E4BF7B42296314A8009A21E3 /* RswiftLibrary */; };
 		E4EC80BD2962A0ED0090794A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80BC2962A0ED0090794A /* SceneDelegate.swift */; };
 		E4EC80BF2962A0ED0090794A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80BE2962A0ED0090794A /* MainViewController.swift */; };
 		E4EC80C42962A0EE0090794A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EC80C32962A0EE0090794A /* Assets.xcassets */; };
@@ -15,6 +18,8 @@
 		E4EC80DC2962A0EF0090794A /* RocketAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80DB2962A0EF0090794A /* RocketAppUITests.swift */; };
 		E4EC80DE2962A0EF0090794A /* RocketAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80DD2962A0EF0090794A /* RocketAppUITestsLaunchTests.swift */; };
 		E4EC80EC2962AEF80090794A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80EB2962AEF70090794A /* AppDelegate.swift */; };
+		E4FFAC59296418B000222A27 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E4FFAC58296418B000222A27 /* Realm */; };
+		E4FFAC5B296418B000222A27 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E4FFAC5A296418B000222A27 /* RealmSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BF7B43296314A8009A21E3 /* RswiftLibrary in Frameworks */,
+				E404126829640AC7009E926A /* EasyDi in Frameworks */,
+				E4FFAC59296418B000222A27 /* Realm in Frameworks */,
+				E4FFAC5B296418B000222A27 /* RealmSwift in Frameworks */,
+				E4BF7B3B296310C1009A21E3 /* RxAlamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E40412632963F723009E926A /* BaseProtocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseProtocols;
+			sourceTree = "<group>";
+		};
+		E40412642963FEAE009E926A /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				E4EC80BC2962A0ED0090794A /* SceneDelegate.swift */,
+				E4EC80EB2962AEF70090794A /* AppDelegate.swift */,
+				E4EC80ED2962B0570090794A /* Screens */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
 		E4EC80AE2962A0ED0090794A = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +124,8 @@
 		E4EC80B92962A0ED0090794A /* RocketApp */ = {
 			isa = PBXGroup;
 			children = (
+				E40412642963FEAE009E926A /* UILayer */,
 				E4EC80FA2962B5B00090794A /* Application */,
-				E4EC80ED2962B0570090794A /* Screens */,
 				E4EC80EA2962ACB70090794A /* Resources */,
 			);
 			path = RocketApp;
@@ -238,8 +265,7 @@
 		E4EC80FA2962B5B00090794A /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				E4EC80EB2962AEF70090794A /* AppDelegate.swift */,
-				E4EC80BC2962A0ED0090794A /* SceneDelegate.swift */,
+				E40412632963F723009E926A /* BaseProtocols */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -258,8 +284,16 @@
 			buildRules = (
 			);
 			dependencies = (
+				E4BF7B45296314E1009A21E3 /* PBXTargetDependency */,
 			);
 			name = RocketApp;
+			packageProductDependencies = (
+				E4BF7B3A296310C1009A21E3 /* RxAlamofire */,
+				E4BF7B42296314A8009A21E3 /* RswiftLibrary */,
+				E404126729640AC7009E926A /* EasyDi */,
+				E4FFAC58296418B000222A27 /* Realm */,
+				E4FFAC5A296418B000222A27 /* RealmSwift */,
+			);
 			productName = RocketApp;
 			productReference = E4EC80B72962A0ED0090794A /* RocketApp.app */;
 			productType = "com.apple.product-type.application";
@@ -332,6 +366,12 @@
 				Base,
 			);
 			mainGroup = E4EC80AE2962A0ED0090794A;
+			packageReferences = (
+				E4BF7B39296310C1009A21E3 /* XCRemoteSwiftPackageReference "RxAlamofire" */,
+				E4BF7B41296314A8009A21E3 /* XCRemoteSwiftPackageReference "R.swift" */,
+				E404126629640AC7009E926A /* XCRemoteSwiftPackageReference "EasyDi" */,
+				E4FFAC57296418B000222A27 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = E4EC80B82962A0ED0090794A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -400,6 +440,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E4BF7B45296314E1009A21E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = E4BF7B44296314E1009A21E3 /* RswiftGenerateInternalResources */;
+		};
 		E4EC80CF2962A0EF0090794A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E4EC80B62962A0ED0090794A /* RocketApp */;
@@ -708,6 +752,73 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E404126629640AC7009E926A /* XCRemoteSwiftPackageReference "EasyDi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TinkoffCreditSystems/EasyDi.git";
+			requirement = {
+				kind = revision;
+				revision = 18c5be2d9be3e84e9e7812902b2612857501d0e7;
+			};
+		};
+		E4BF7B39296310C1009A21E3 /* XCRemoteSwiftPackageReference "RxAlamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E4BF7B41296314A8009A21E3 /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		E4FFAC57296418B000222A27 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.33.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E404126729640AC7009E926A /* EasyDi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E404126629640AC7009E926A /* XCRemoteSwiftPackageReference "EasyDi" */;
+			productName = EasyDi;
+		};
+		E4BF7B3A296310C1009A21E3 /* RxAlamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4BF7B39296310C1009A21E3 /* XCRemoteSwiftPackageReference "RxAlamofire" */;
+			productName = RxAlamofire;
+		};
+		E4BF7B42296314A8009A21E3 /* RswiftLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4BF7B41296314A8009A21E3 /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = RswiftLibrary;
+		};
+		E4BF7B44296314E1009A21E3 /* RswiftGenerateInternalResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "plugin:RswiftGenerateInternalResources";
+		};
+		E4FFAC58296418B000222A27 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4FFAC57296418B000222A27 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		E4FFAC5A296418B000222A27 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4FFAC57296418B000222A27 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4EC80AF2962A0ED0090794A /* Project object */;
 }
