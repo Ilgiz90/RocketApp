@@ -84,13 +84,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E40412632963F723009E926A /* BaseProtocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BaseProtocols;
-			sourceTree = "<group>";
-		};
 		E40412642963FEAE009E926A /* UILayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,9 +258,16 @@
 		E4EC80FA2962B5B00090794A /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				E40412632963F723009E926A /* BaseProtocols */,
+				E4FFAC5E2964372100222A27 /* BaseProtocols */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		E4FFAC5E2964372100222A27 /* BaseProtocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseProtocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
