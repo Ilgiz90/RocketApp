@@ -18,9 +18,11 @@ class WebAPI: WebAPIProtocol {
     private lazy var session = Session.default
 
     
-    public init(apiConstants: WebConstants) {
+    init(apiConstants: WebConstants) {
         self.apiURL = apiConstants.baseURL + apiConstants.apiVersion
     }
+    
+    // MARK: - make request
     
     func request(
         method: Alamofire.HTTPMethod,
@@ -42,6 +44,8 @@ class WebAPI: WebAPIProtocol {
         })
     }
     
+    // MARK: - download data
+    
     func download(
         method: Alamofire.HTTPMethod,
         url: URL
@@ -55,7 +59,14 @@ class WebAPI: WebAPIProtocol {
             .map { $0.1 }
     }
     
-    private func createError(
+}
+// MARK: - private functions
+
+private extension WebAPI {
+    
+    // MARK: - create error
+    
+    func createError(
         _ response: HTTPURLResponse
     ) -> APIError {
         

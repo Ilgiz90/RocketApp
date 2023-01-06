@@ -11,7 +11,7 @@ class UseCaseRocketList: UseCaseRocketListProtocol {
     
     private let repository: RocketRepositoryProtocol
     
-    public init(repository: RocketRepositoryProtocol) {
+    init(repository: RocketRepositoryProtocol) {
         self.repository = repository
     }
     

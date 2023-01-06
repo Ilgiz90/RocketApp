@@ -7,8 +7,14 @@
 
 struct RocketsRequset: Decodable {
     let docs: [Rocket]
-    let totalDocs, offset, limit, totalPages: Int
-    let page, pagingCounter: Int
-    let hasPrevPage, hasNextPage: Bool
-    let prevPage, nextPage: Int?
+    let totalDocs: Int
+    let offset: Int
+    let limit: Int
+    let totalPages: Int
+    let page: Int
+    let pagingCounter: Int
+    let hasPrevPage: Bool
+    let hasNextPage: Bool
+    let prevPage: Int?
+    let nextPage: Int?
 }

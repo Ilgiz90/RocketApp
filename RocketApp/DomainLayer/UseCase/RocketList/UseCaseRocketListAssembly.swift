@@ -8,6 +8,7 @@
 import EasyDi
 
 class UseCaseRocketListAssembly: Assembly {
+    
     var useCase: UseCaseRocketList {
         define(
             scope: .lazySingleton,

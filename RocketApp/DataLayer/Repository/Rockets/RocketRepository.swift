@@ -11,7 +11,7 @@ class RocketRepository: RocketRepositoryProtocol {
     
     private let remoteData: RocketDataSorceProtocol
     
-    public init (remoteData: RocketDataSorceProtocol) {
+    init (remoteData: RocketDataSorceProtocol) {
         self.remoteData = remoteData
     }
     

@@ -7,10 +7,10 @@
 
 struct APIError: Error, Decodable {
     
-    public var code: Int
-    public var message: String?
+    var code: Int
+    var message: String?
     
-    public init(
+    init(
         code: Int,
         message: String?
     ) {

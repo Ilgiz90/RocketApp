@@ -11,7 +11,7 @@ class RocketRemoteDataSource: RocketDataSorceProtocol {
     
     private let api: WebAPIProtocol
     
-    public init(api: WebAPIProtocol) {
+    init(api: WebAPIProtocol) {
         self.api = api
     }
     
