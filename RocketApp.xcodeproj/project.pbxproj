@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E404126829640AC7009E926A /* EasyDi in Frameworks */ = {isa = PBXBuildFile; productRef = E404126729640AC7009E926A /* EasyDi */; };
+		E40519102967241B00AAB0BC /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405190F2967241B00AAB0BC /* WebAPI.swift */; };
+		E40519112967241B00AAB0BC /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405190F2967241B00AAB0BC /* WebAPI.swift */; };
+		E40519132967243A00AAB0BC /* WebAPIAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40519122967243A00AAB0BC /* WebAPIAssembly.swift */; };
+		E40519142967243A00AAB0BC /* WebAPIAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40519122967243A00AAB0BC /* WebAPIAssembly.swift */; };
+		E4051918296725D900AAB0BC /* WebAPIMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4051917296725D900AAB0BC /* WebAPIMapper.swift */; };
+		E4051919296725D900AAB0BC /* WebAPIMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4051917296725D900AAB0BC /* WebAPIMapper.swift */; };
+		E405191C2967385D00AAB0BC /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405191B2967385D00AAB0BC /* APIError.swift */; };
+		E405191D2967385D00AAB0BC /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405191B2967385D00AAB0BC /* APIError.swift */; };
+		E40519212967476700AAB0BC /* WebConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40519202967476700AAB0BC /* WebConstants.swift */; };
+		E40519222967476700AAB0BC /* WebConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40519202967476700AAB0BC /* WebConstants.swift */; };
+		E405192429674ACF00AAB0BC /* WebAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405192329674ACF00AAB0BC /* WebAPIProtocol.swift */; };
+		E405192529674ACF00AAB0BC /* WebAPIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405192329674ACF00AAB0BC /* WebAPIProtocol.swift */; };
+		E405192829674C2D00AAB0BC /* EncodingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405192729674C2D00AAB0BC /* EncodingType.swift */; };
+		E405192929674C2D00AAB0BC /* EncodingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405192729674C2D00AAB0BC /* EncodingType.swift */; };
+		E405192B2967506200AAB0BC /* RocketRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405192A2967506200AAB0BC /* RocketRepositoryProtocol.swift */; };
+		E405192C2967506200AAB0BC /* RocketRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405192A2967506200AAB0BC /* RocketRepositoryProtocol.swift */; };
+		E405192E2967520B00AAB0BC /* RocketsRequset.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405192D2967520B00AAB0BC /* RocketsRequset.swift */; };
+		E405192F2967520B00AAB0BC /* RocketsRequset.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405192D2967520B00AAB0BC /* RocketsRequset.swift */; };
+		E4051931296752C000AAB0BC /* RocketRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4051930296752C000AAB0BC /* RocketRepository.swift */; };
+		E4051932296752C000AAB0BC /* RocketRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4051930296752C000AAB0BC /* RocketRepository.swift */; };
+		E4051936296754B400AAB0BC /* RocketDataSorceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4051935296754B400AAB0BC /* RocketDataSorceProtocol.swift */; };
+		E4051937296754B400AAB0BC /* RocketDataSorceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4051935296754B400AAB0BC /* RocketDataSorceProtocol.swift */; };
+		E40519392967553500AAB0BC /* RocketRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40519382967553500AAB0BC /* RocketRemoteDataSource.swift */; };
+		E405193A2967553500AAB0BC /* RocketRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40519382967553500AAB0BC /* RocketRemoteDataSource.swift */; };
+		E405193C296756A400AAB0BC /* RocketDataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405193B296756A400AAB0BC /* RocketDataAssembly.swift */; };
+		E405193D296756A400AAB0BC /* RocketDataAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405193B296756A400AAB0BC /* RocketDataAssembly.swift */; };
+		E405193F2967591E00AAB0BC /* RocketRepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405193E2967591E00AAB0BC /* RocketRepositoryAssembly.swift */; };
+		E40519402967591E00AAB0BC /* RocketRepositoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405193E2967591E00AAB0BC /* RocketRepositoryAssembly.swift */; };
+		E405194429675C0A00AAB0BC /* UseCaseRocketListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405194329675C0A00AAB0BC /* UseCaseRocketListProtocol.swift */; };
+		E405194529675C0A00AAB0BC /* UseCaseRocketListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405194329675C0A00AAB0BC /* UseCaseRocketListProtocol.swift */; };
+		E405194E29675DE100AAB0BC /* UseCaseRocketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405194D29675DE100AAB0BC /* UseCaseRocketList.swift */; };
+		E405194F29675DE100AAB0BC /* UseCaseRocketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405194D29675DE100AAB0BC /* UseCaseRocketList.swift */; };
+		E405195129675DFD00AAB0BC /* UseCaseRocketListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405195029675DFD00AAB0BC /* UseCaseRocketListAssembly.swift */; };
+		E405195229675DFD00AAB0BC /* UseCaseRocketListAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E405195029675DFD00AAB0BC /* UseCaseRocketListAssembly.swift */; };
+		E4BF7B3B296310C1009A21E3 /* RxAlamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E4BF7B3A296310C1009A21E3 /* RxAlamofire */; };
+		E4BF7B43296314A8009A21E3 /* RswiftLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = E4BF7B42296314A8009A21E3 /* RswiftLibrary */; };
 		E4EC80BD2962A0ED0090794A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80BC2962A0ED0090794A /* SceneDelegate.swift */; };
 		E4EC80BF2962A0ED0090794A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80BE2962A0ED0090794A /* MainViewController.swift */; };
 		E4EC80C42962A0EE0090794A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EC80C32962A0EE0090794A /* Assets.xcassets */; };
@@ -15,6 +52,8 @@
 		E4EC80DC2962A0EF0090794A /* RocketAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80DB2962A0EF0090794A /* RocketAppUITests.swift */; };
 		E4EC80DE2962A0EF0090794A /* RocketAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80DD2962A0EF0090794A /* RocketAppUITestsLaunchTests.swift */; };
 		E4EC80EC2962AEF80090794A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC80EB2962AEF70090794A /* AppDelegate.swift */; };
+		E4FF777A296826CC000413A5 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF7779296826CC000413A5 /* Rocket.swift */; };
+		E4FF777B296826CC000413A5 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FF7779296826CC000413A5 /* Rocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +74,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E405190F2967241B00AAB0BC /* WebAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
+		E40519122967243A00AAB0BC /* WebAPIAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIAssembly.swift; sourceTree = "<group>"; };
+		E4051917296725D900AAB0BC /* WebAPIMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIMapper.swift; sourceTree = "<group>"; };
+		E405191B2967385D00AAB0BC /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		E40519202967476700AAB0BC /* WebConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConstants.swift; sourceTree = "<group>"; };
+		E405192329674ACF00AAB0BC /* WebAPIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebAPIProtocol.swift; sourceTree = "<group>"; };
+		E405192729674C2D00AAB0BC /* EncodingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncodingType.swift; sourceTree = "<group>"; };
+		E405192A2967506200AAB0BC /* RocketRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketRepositoryProtocol.swift; sourceTree = "<group>"; };
+		E405192D2967520B00AAB0BC /* RocketsRequset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsRequset.swift; sourceTree = "<group>"; };
+		E4051930296752C000AAB0BC /* RocketRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketRepository.swift; sourceTree = "<group>"; };
+		E4051935296754B400AAB0BC /* RocketDataSorceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDataSorceProtocol.swift; sourceTree = "<group>"; };
+		E40519382967553500AAB0BC /* RocketRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketRemoteDataSource.swift; sourceTree = "<group>"; };
+		E405193B296756A400AAB0BC /* RocketDataAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketDataAssembly.swift; sourceTree = "<group>"; };
+		E405193E2967591E00AAB0BC /* RocketRepositoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketRepositoryAssembly.swift; sourceTree = "<group>"; };
+		E405194329675C0A00AAB0BC /* UseCaseRocketListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseRocketListProtocol.swift; sourceTree = "<group>"; };
+		E405194D29675DE100AAB0BC /* UseCaseRocketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseRocketList.swift; sourceTree = "<group>"; };
+		E405195029675DFD00AAB0BC /* UseCaseRocketListAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseCaseRocketListAssembly.swift; sourceTree = "<group>"; };
 		E4EC80B72962A0ED0090794A /* RocketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EC80BC2962A0ED0090794A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E4EC80BE2962A0ED0090794A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +103,7 @@
 		E4EC80DB2962A0EF0090794A /* RocketAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketAppUITests.swift; sourceTree = "<group>"; };
 		E4EC80DD2962A0EF0090794A /* RocketAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E4EC80EB2962AEF70090794A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4FF7779296826CC000413A5 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4BF7B43296314A8009A21E3 /* RswiftLibrary in Frameworks */,
+				E404126829640AC7009E926A /* EasyDi in Frameworks */,
+				E4BF7B3B296310C1009A21E3 /* RxAlamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +134,152 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E40412642963FEAE009E926A /* UILayer */ = {
+			isa = PBXGroup;
+			children = (
+				E4EC80BC2962A0ED0090794A /* SceneDelegate.swift */,
+				E4EC80EB2962AEF70090794A /* AppDelegate.swift */,
+				E4EC80ED2962B0570090794A /* Screens */,
+			);
+			path = UILayer;
+			sourceTree = "<group>";
+		};
+		E405190A2967081100AAB0BC /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E40519332967535400AAB0BC /* DataSource */,
+				E405190C296720D700AAB0BC /* Entity */,
+				E405190B296719DB00AAB0BC /* Repository */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		E405190B296719DB00AAB0BC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E405190D2967235C00AAB0BC /* Rockets */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E405190C296720D700AAB0BC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E405192629674BEF00AAB0BC /* Enums */,
+				E405191F2967473F00AAB0BC /* Constants */,
+				E405190E296723B100AAB0BC /* WebAPI */,
+				E40519152967259A00AAB0BC /* Extensions */,
+				E405191E2967442200AAB0BC /* Models */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E405190D2967235C00AAB0BC /* Rockets */ = {
+			isa = PBXGroup;
+			children = (
+				E405192A2967506200AAB0BC /* RocketRepositoryProtocol.swift */,
+				E4051930296752C000AAB0BC /* RocketRepository.swift */,
+				E405193E2967591E00AAB0BC /* RocketRepositoryAssembly.swift */,
+			);
+			path = Rockets;
+			sourceTree = "<group>";
+		};
+		E405190E296723B100AAB0BC /* WebAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E405190F2967241B00AAB0BC /* WebAPI.swift */,
+				E40519122967243A00AAB0BC /* WebAPIAssembly.swift */,
+				E405192329674ACF00AAB0BC /* WebAPIProtocol.swift */,
+			);
+			path = WebAPI;
+			sourceTree = "<group>";
+		};
+		E40519152967259A00AAB0BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E4051916296725B000AAB0BC /* RX */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E4051916296725B000AAB0BC /* RX */ = {
+			isa = PBXGroup;
+			children = (
+				E4051917296725D900AAB0BC /* WebAPIMapper.swift */,
+			);
+			path = RX;
+			sourceTree = "<group>";
+		};
+		E405191E2967442200AAB0BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E405191B2967385D00AAB0BC /* APIError.swift */,
+				E405192D2967520B00AAB0BC /* RocketsRequset.swift */,
+				E4FF7779296826CC000413A5 /* Rocket.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E405191F2967473F00AAB0BC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				E40519202967476700AAB0BC /* WebConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		E405192629674BEF00AAB0BC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E405192729674C2D00AAB0BC /* EncodingType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E40519332967535400AAB0BC /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E4051934296753A100AAB0BC /* Rockets */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E4051934296753A100AAB0BC /* Rockets */ = {
+			isa = PBXGroup;
+			children = (
+				E4051935296754B400AAB0BC /* RocketDataSorceProtocol.swift */,
+				E40519382967553500AAB0BC /* RocketRemoteDataSource.swift */,
+				E405193B296756A400AAB0BC /* RocketDataAssembly.swift */,
+			);
+			path = Rockets;
+			sourceTree = "<group>";
+		};
+		E405194129675AFA00AAB0BC /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E405194729675C5E00AAB0BC /* Entity */,
+				E405194229675B3900AAB0BC /* RocketList */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		E405194229675B3900AAB0BC /* RocketList */ = {
+			isa = PBXGroup;
+			children = (
+				E405194329675C0A00AAB0BC /* UseCaseRocketListProtocol.swift */,
+				E405194D29675DE100AAB0BC /* UseCaseRocketList.swift */,
+				E405195029675DFD00AAB0BC /* UseCaseRocketListAssembly.swift */,
+			);
+			path = RocketList;
+			sourceTree = "<group>";
+		};
+		E405194729675C5E00AAB0BC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		E4EC80AE2962A0ED0090794A = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +303,9 @@
 		E4EC80B92962A0ED0090794A /* RocketApp */ = {
 			isa = PBXGroup;
 			children = (
-				E4EC80FA2962B5B00090794A /* Application */,
-				E4EC80ED2962B0570090794A /* Screens */,
+				E405190A2967081100AAB0BC /* DataLayer */,
+				E40412642963FEAE009E926A /* UILayer */,
+				E4EC80FA2962B5B00090794A /* DomainLayer */,
 				E4EC80EA2962ACB70090794A /* Resources */,
 			);
 			path = RocketApp;
@@ -235,13 +442,12 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		E4EC80FA2962B5B00090794A /* Application */ = {
+		E4EC80FA2962B5B00090794A /* DomainLayer */ = {
 			isa = PBXGroup;
 			children = (
-				E4EC80EB2962AEF70090794A /* AppDelegate.swift */,
-				E4EC80BC2962A0ED0090794A /* SceneDelegate.swift */,
+				E405194129675AFA00AAB0BC /* UseCase */,
 			);
-			path = Application;
+			path = DomainLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +464,14 @@
 			buildRules = (
 			);
 			dependencies = (
+				E4BF7B45296314E1009A21E3 /* PBXTargetDependency */,
 			);
 			name = RocketApp;
+			packageProductDependencies = (
+				E4BF7B3A296310C1009A21E3 /* RxAlamofire */,
+				E4BF7B42296314A8009A21E3 /* RswiftLibrary */,
+				E404126729640AC7009E926A /* EasyDi */,
+			);
 			productName = RocketApp;
 			productReference = E4EC80B72962A0ED0090794A /* RocketApp.app */;
 			productType = "com.apple.product-type.application";
@@ -332,6 +544,11 @@
 				Base,
 			);
 			mainGroup = E4EC80AE2962A0ED0090794A;
+			packageReferences = (
+				E4BF7B39296310C1009A21E3 /* XCRemoteSwiftPackageReference "RxAlamofire" */,
+				E4BF7B41296314A8009A21E3 /* XCRemoteSwiftPackageReference "R.swift" */,
+				E404126629640AC7009E926A /* XCRemoteSwiftPackageReference "EasyDi" */,
+			);
 			productRefGroup = E4EC80B82962A0ED0090794A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -374,9 +591,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4FF777A296826CC000413A5 /* Rocket.swift in Sources */,
+				E405192429674ACF00AAB0BC /* WebAPIProtocol.swift in Sources */,
 				E4EC80EC2962AEF80090794A /* AppDelegate.swift in Sources */,
+				E405192B2967506200AAB0BC /* RocketRepositoryProtocol.swift in Sources */,
+				E40519132967243A00AAB0BC /* WebAPIAssembly.swift in Sources */,
+				E4051931296752C000AAB0BC /* RocketRepository.swift in Sources */,
 				E4EC80BF2962A0ED0090794A /* MainViewController.swift in Sources */,
+				E405194E29675DE100AAB0BC /* UseCaseRocketList.swift in Sources */,
+				E405192829674C2D00AAB0BC /* EncodingType.swift in Sources */,
+				E405193C296756A400AAB0BC /* RocketDataAssembly.swift in Sources */,
 				E4EC80BD2962A0ED0090794A /* SceneDelegate.swift in Sources */,
+				E405193F2967591E00AAB0BC /* RocketRepositoryAssembly.swift in Sources */,
+				E405195129675DFD00AAB0BC /* UseCaseRocketListAssembly.swift in Sources */,
+				E4051936296754B400AAB0BC /* RocketDataSorceProtocol.swift in Sources */,
+				E4051918296725D900AAB0BC /* WebAPIMapper.swift in Sources */,
+				E40519102967241B00AAB0BC /* WebAPI.swift in Sources */,
+				E40519392967553500AAB0BC /* RocketRemoteDataSource.swift in Sources */,
+				E40519212967476700AAB0BC /* WebConstants.swift in Sources */,
+				E405191C2967385D00AAB0BC /* APIError.swift in Sources */,
+				E405192E2967520B00AAB0BC /* RocketsRequset.swift in Sources */,
+				E405194429675C0A00AAB0BC /* UseCaseRocketListProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +620,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4EC80D22962A0EF0090794A /* RocketAppTests.swift in Sources */,
+				E405192F2967520B00AAB0BC /* RocketsRequset.swift in Sources */,
+				E40519142967243A00AAB0BC /* WebAPIAssembly.swift in Sources */,
+				E4051932296752C000AAB0BC /* RocketRepository.swift in Sources */,
+				E40519222967476700AAB0BC /* WebConstants.swift in Sources */,
+				E4051919296725D900AAB0BC /* WebAPIMapper.swift in Sources */,
+				E405191D2967385D00AAB0BC /* APIError.swift in Sources */,
+				E405192529674ACF00AAB0BC /* WebAPIProtocol.swift in Sources */,
+				E4051937296754B400AAB0BC /* RocketDataSorceProtocol.swift in Sources */,
+				E405192929674C2D00AAB0BC /* EncodingType.swift in Sources */,
+				E4FF777B296826CC000413A5 /* Rocket.swift in Sources */,
+				E40519402967591E00AAB0BC /* RocketRepositoryAssembly.swift in Sources */,
+				E40519112967241B00AAB0BC /* WebAPI.swift in Sources */,
+				E405192C2967506200AAB0BC /* RocketRepositoryProtocol.swift in Sources */,
+				E405193A2967553500AAB0BC /* RocketRemoteDataSource.swift in Sources */,
+				E405194F29675DE100AAB0BC /* UseCaseRocketList.swift in Sources */,
+				E405193D296756A400AAB0BC /* RocketDataAssembly.swift in Sources */,
+				E405194529675C0A00AAB0BC /* UseCaseRocketListProtocol.swift in Sources */,
+				E405195229675DFD00AAB0BC /* UseCaseRocketListAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +653,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		E4BF7B45296314E1009A21E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = E4BF7B44296314E1009A21E3 /* RswiftGenerateInternalResources */;
+		};
 		E4EC80CF2962A0EF0090794A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E4EC80B62962A0ED0090794A /* RocketApp */;
@@ -708,6 +965,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E404126629640AC7009E926A /* XCRemoteSwiftPackageReference "EasyDi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TinkoffCreditSystems/EasyDi.git";
+			requirement = {
+				kind = revision;
+				revision = 18c5be2d9be3e84e9e7812902b2612857501d0e7;
+			};
+		};
+		E4BF7B39296310C1009A21E3 /* XCRemoteSwiftPackageReference "RxAlamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxAlamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		E4BF7B41296314A8009A21E3 /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E404126729640AC7009E926A /* EasyDi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E404126629640AC7009E926A /* XCRemoteSwiftPackageReference "EasyDi" */;
+			productName = EasyDi;
+		};
+		E4BF7B3A296310C1009A21E3 /* RxAlamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4BF7B39296310C1009A21E3 /* XCRemoteSwiftPackageReference "RxAlamofire" */;
+			productName = RxAlamofire;
+		};
+		E4BF7B42296314A8009A21E3 /* RswiftLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4BF7B41296314A8009A21E3 /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = RswiftLibrary;
+		};
+		E4BF7B44296314E1009A21E3 /* RswiftGenerateInternalResources */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "plugin:RswiftGenerateInternalResources";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E4EC80AF2962A0ED0090794A /* Project object */;
 }
